@@ -11,6 +11,8 @@ public class Produto {
         this.qtd = qtd;
     }
 
+    public String getNome() { return nome; }
+
     public int getQtd() { return qtd; }
     public void setQtd(int qtde) { this.qtd = qtde; }
 
