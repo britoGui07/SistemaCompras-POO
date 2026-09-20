@@ -10,10 +10,8 @@ public class Item {
     }
 
     public Produto getProduto() { return produto; }
-    public void setProduto(Produto produto) { this.produto = produto; }
 
     public int getQtde() { return qtd; }
-    public void setQtde(int qtd) { this.qtd = qtd; }
 
     @Override
     public String toString() {

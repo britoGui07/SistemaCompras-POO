@@ -12,18 +12,4 @@ public class DaoVenda {
         tabelaVenda.add(venda);
     }
 
-    public void Delete(Venda venda) {
-        tabelaVenda.remove(venda);
-    }
-
-    public Venda Recover(int id) {
-        for (Venda v : tabelaVenda) {
-            if (v.getId() == id) return v;
-        }
-        return null;
-    }
-
-    public List<Venda> listar() {
-        return tabelaVenda;
-    }
 }
