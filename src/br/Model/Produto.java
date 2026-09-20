@@ -1,0 +1,27 @@
+package br.Model;
+
+public class Produto {
+    private int id;
+    private String nome;
+    private int qtd;      
+
+    public Produto(int id, String nome, int qtd) {
+        this.id = id;
+        this.nome = nome;
+        this.qtd = qtd;
+    }
+
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+
+    public int getQtd() { return qtd; }
+    public void setQtd(int qtde) { this.qtd = qtde; }
+
+    @Override
+    public String toString() {
+        return "id:" + id + " | nome:" + nome + " | estoque:" + qtd;
+    }
+}
